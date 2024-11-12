@@ -124,6 +124,8 @@ dmypy.json
 
 # End of https://www.gitignore.io/api/flask
 
-config.cfg
+config.cfg.sample
 .vscode
 .vercel
+.env
+

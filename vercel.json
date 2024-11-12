@@ -9,7 +9,10 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/twauth-web.py"
+      "dest": "twauth-web.py"
     }
-  ]
+  ],
+  "env": {
+    "PYTHONPATH": "."
+  }
 } 
