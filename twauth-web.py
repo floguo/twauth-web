@@ -1,6 +1,6 @@
 import os
 from flask import Flask, render_template, request, url_for
-import oauth2 as oauth
+import oauth2client as oauth
 import urllib.request
 import urllib.parse
 import urllib.error
